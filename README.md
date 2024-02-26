@@ -6,6 +6,9 @@ This script provides a GUI for converting the RAW data output (.txt) from [**Bio
 It also cleans and creates a new text file, and renames all files adding CRS and date e.g.: 
 *Atlas_records_abcdefg_EPSG7856_20240226.txt*
 
+I used [wxPython](https://wxpython.org/) to make an execxutable, just message me if you want a copy.
+Or you can run it using `python BioNet_Atlas_txt2SHP.py`.
+
 1. **GUI Setup**:
    - The script utilizes the `tkinter` library to create a GUI window titled "BioNet Atlas Text file to Shapefile Converter".
    - It includes widgets such as labels, entry fields, buttons, and a Combobox for EPSG selection.
